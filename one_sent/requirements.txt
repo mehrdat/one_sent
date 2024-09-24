@@ -41,6 +41,7 @@ click=8.1.7=unix_pyh707e725_0
 colorama=0.4.6=pyhd8ed1ab_0
 comm=0.2.2=pyhd8ed1ab_0
 crashtest=0.4.1=pyhd8ed1ab_0
+cryptography=43.0.1=pypi_0
 debugpy=1.8.5=py310h53e7c6a_1
 decorator=5.1.1=pyhd8ed1ab_0
 distlib=0.3.8=pyhd8ed1ab_0
@@ -142,6 +143,7 @@ orc=2.0.2=h22b2039_0
 packaging=24.1=pyhd8ed1ab_0
 pandas=2.2.3=py310ha53a654_1
 parso=0.8.4=pyhd8ed1ab_0
+pdfminer-six=20240706=pypi_0
 pexpect=4.9.0=pyhd8ed1ab_0
 pickleshare=0.7.5=py_1003
 pillow=10.4.0=py310h4e5c94f_1
