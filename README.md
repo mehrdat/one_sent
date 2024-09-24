@@ -1,4 +1,4 @@
-# PDF and eBook Summarizer App
+# Get one sentence from PDF and eBook
 
 <div align="center">
   <img src="./img/one_sent.jpg" alt="one_sent">
