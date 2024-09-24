@@ -6,6 +6,11 @@ from sumy.nlp.tokenizers import Tokenizer
 from sumy.parsers.plaintext import PlaintextParser
 from sumy.summarizers.lsa import LsaSummarizer
 import re
+
+from pdfminer.high_level import extract_text
+
+import fitz  # PyMuPDF
+
 import nltk
 nltk.download('punkt')
 st.set_page_config(layout="wide")
@@ -37,13 +42,24 @@ class Summarizer:
                 text.append(item.get_content().decode('utf-8'))
         return self.clean_text(''.join(text))
 
-    def get_pdf_text(self, file_path):
-        text = ' '
-        with pdfplumber.open(file_path) as pdf:
-            for page in pdf.pages:
-                text += page.extract_text()
-        return self.clean_text(text)
+    # def get_pdf_text(self, file_path):
+    #     text = ' '
+    #     with pdfplumber.open(file_path) as pdf:
+    #         for page in pdf.pages:
+    #             text += page.extract_text()
+    #     return self.clean_text(text)
 
+    # def get_pdf_text(self,file_path):
+    #     doc = fitz.open(file_path)
+    #     text = ""
+    #     for page in doc:
+    #         text += page.get_text()
+    #     return text
+
+    def get_pdf_text(self,file_path):
+        text = extract_text(file_path)
+        return self.clean_text(text)
+    
     def summarize(self):
         if not self.text:
             return "No text to summarize."
