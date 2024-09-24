@@ -1,7 +1,7 @@
 # PDF and eBook Summarizer App
 
 <div align="center">
-  <img src="/img/one_sent.img" alt="one_sent">
+  <img src="./img/one_sent.jpg" alt="one_sent">
 </div>
 
 ## Overview
@@ -34,7 +34,7 @@ This application allows users to upload PDF, EPUB, or TXT files and automaticall
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-repo-link
+    git clone https://github.com/one_sent
     ```
 2. Install the required dependencies:
     ```bash
