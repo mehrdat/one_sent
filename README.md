@@ -1,7 +1,7 @@
 # PDF and eBook Summarizer App
 
 <div align="center">
-  <img src="one_sent.img" alt="one_sent">
+  <img src="/img/one_sent.img" alt="one_sent">
 </div>
 
 ## Overview
