@@ -1,4 +1,4 @@
-# Get one sentence from PDF and eBook
+# Get the Most Important Sentence from a PDF/ eBook/ TXT
 
 <div align="center">
   <img src="./img/one_sent.jpg" alt="one_sent">
@@ -34,7 +34,7 @@ This application allows users to upload PDF, EPUB, or TXT files and automaticall
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/one_sent
+    git clone https://github.com/mehrdat/one_sent
     ```
 2. Install the required dependencies:
     ```bash
