@@ -8,7 +8,7 @@ from sumy.summarizers.lsa import LsaSummarizer
 import re
 import nltk
 nltk.download('punkt')
-#st.set_page_config(layout="wide")
+st.set_page_config(layout="wide")
 
 
 class Summarizer:
