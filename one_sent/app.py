@@ -8,8 +8,8 @@ import re
 
 from pdfminer.high_level import extract_text
 
-import nltk
-nltk.download('punkt')
+#import nltk
+#nltk.download('punkt')
 st.set_page_config(layout="wide")
 
 
